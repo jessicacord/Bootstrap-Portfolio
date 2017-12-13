@@ -1,0 +1,146 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+    background-image: url("../images/circles-light.png");
+    background-repeat: repeat;
+    padding-top: 130px;
+    margin-bottom: 100px;
+}
+
+h1, h2, h3, h4 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold; 
+}
+.navbar {
+    background-color: #ffffff;
+}
+
+.name {
+    background-color: #4aaaa5;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+}
+
+.name h1 {
+    color: white;
+    position: relative;
+    top: 20%;
+}
+
+@media screen and (max-width: 786px) {
+    .navbar {
+        background-color: #4aaaa5;
+    }
+    .navbar-toggle {
+        background-color: white;
+    }
+    .name {
+        height: 50px;
+    }
+    .name h1 {
+        top: auto;
+    }
+}
+
+.navbar-right {
+    padding-top: 25px;
+}
+
+.panel {
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+}
+
+.content {
+    padding: 30px;
+    line-height: 2;
+}
+
+.page-header{
+    margin-top: 0px;
+}
+
+.bio img {
+    width: 40%;
+    margin: 0px 20px 10px 0px;
+}
+
+.sidebar {
+    padding: 25px;
+    height: auto;
+}
+
+.social {
+    padding: 0px 30px;
+}
+
+.sidebar .social img {
+    width: 80%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.footer-block {
+    margin: 20px 0;
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.form-group input {
+    border-radius: 0;
+}
+
+/* Not working when combined into one style .form-group input, textarea { } */
+
+.form-group textarea {
+    border-radius: 0;
+}
+
+.contact-form button {
+    background-color: #4aaaa5;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 0px;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #1F5D5A; 
+    color: white;
+}
+
+.portfolio-image {
+    padding: 0px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.portfolio-image img {
+    width: 100%;
+}
+
+.portfolio-footer {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.portfolio-footer h4 {
+    color: white;
+}
